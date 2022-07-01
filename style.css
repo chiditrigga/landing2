@@ -141,23 +141,24 @@ button:hover{
     display: flex;
     width: 100%;
     height: auto;
-    max-width: 600px;
+    max-width: 700px;
+
 }
 
 
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 475px) {
 
      .flexhead4{
         display: flex;
-       max-width:250px;
+       width: 100%;
     
         flex-direction: column-reverse;
      }
      .flexhead2 {
         display: flex;
         margin-left: 20px;
-        width: 320px;
+        width: 100%;
         margin-top: 50px;
         flex-direction: column-reverse;
         
@@ -166,44 +167,43 @@ button:hover{
      }
      .flexhead3{
         display: flex;
-        width: 333px;
-        margin-left: 15px;
+        width: 100%;
+        
         flex-direction: column;
         margin-top: 50px;
         
      }
 
      .flow{
-        width: 100px;
+        max-width:300px;
+        align-self: center;
+        margin-top: 50px;
      }
 
      .flow2{
-        width: 300px;
+        width: 250px;
      }
 
      .head2{
-        display: block;
-        width: 373px;
+        display: flex;
+        flex-direction: column;
+    
         padding: 20px 20px;
         
         
      }
 
-    .build2i{
-        width: 310px;
-        margin-top: 60px;
-        margin-left: 15px;
-    }
 
      .flexhead{
         display: flex;
         width: 100%;
         justify-content: space-between;
-        width: 200px;
+        
      }
 
      .logo{
         margin-left: -1px;
+        max-width: 300px;
      }
      .login{
         
@@ -213,42 +213,50 @@ button:hover{
      
      body{
         font-size: 13px;
+        margin: 0;
+        padding: 0;
      }
-     .build{
-        margin-top: -6px;
-        width: 250px;
-        padding-left: 40px;
-     }
+     
 
      .get{
-        width: 230px;
-        margin-left: 10px;
+        width: 100%;
         color: white;
+        margin-bottom: 20px;
      }
 
     .build > h1{
            text-align: center;
-           width: 100%;
+        
      }
      .build > h1 > p{
         text-align: center;
-        width: 100%;
+        
   }
   .same{
     
     background-image: url('images/bg-hero-mobile.svg');
-}
-.grow{
-    width: 200px;
-}
- 
-.grow2 > img{
-    width: 300px;
+    margin-right: -20px;
+    
 }
 
+ .grow2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+ }
+ .grow{
+    width: 250px;
+ }
+
+
 .user{
-    width: 100%;
+    width: 250px;
     
+}
+.user2{
+    max-width: 300px;
+    align-self: center;
+    margin-top: 50px;
 }
 
 }
