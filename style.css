@@ -151,10 +151,9 @@ button:hover{
     
     padding-top: 100px;
     color: white;
-    
-    
-
-
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
 
 }
 
@@ -164,6 +163,11 @@ button:hover{
     height: auto;
     max-width: 700px;
 
+}
+
+.foot1{
+    max-width: 500px;
+    
 }
 
 
@@ -280,6 +284,12 @@ button:hover{
     max-width: 300px;
     align-self: center;
     margin-top: 50px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 }
